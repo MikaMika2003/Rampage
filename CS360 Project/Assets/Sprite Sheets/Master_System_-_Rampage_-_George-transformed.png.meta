@@ -1,0 +1,1095 @@
+fileFormatVersion: 2
+guid: 99ccb016e365355418e26099820039de
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 287
+        width: 26
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5070829, y: 0.4850009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13c34b520c70b642b770a9c6c9867e5
+      internalID: 2006730492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 287
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3200696a20f3e4f902428672c5c250
+      internalID: -1530598194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 287
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e47cb4ebdec1345a19acc52de6a29b
+      internalID: 2082048521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 287
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72bbbca9808b0d4abae8f068822ed6d
+      internalID: -515806327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 287
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbcdbda50597934c8715f95210797b0
+      internalID: -580214109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 287
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab64cb46a53fbc7439f5bebc77ae8517
+      internalID: -677178840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 287
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49487ec9d926ac042b08bdf16bbf6742
+      internalID: 1684087357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 287
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff26ad21831581a48b0adbecccad3848
+      internalID: 665185735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 287
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfe3660864b2e34197fa62948a1a231
+      internalID: 56622413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 287
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95663f575dcebc94da58a8f73dc9d41e
+      internalID: 948017482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_10
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 287
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1cf9cc67b631c4a843c95f485816af
+      internalID: -1424835081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 287
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b64dbef8f30e364194f7b1de42292be
+      internalID: 1248215558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 230
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1826bfd534a0db46bb2205bb1a10c69
+      internalID: -886405025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 230
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7777863c677220049833eff9d971adcb
+      internalID: -1141657075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 230
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc37f902edf12143add5b0eb0b10c5d
+      internalID: -2097561892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 230
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a160a7411dc998b4da06685cbf2d8f14
+      internalID: 1710059001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 231
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb931d09b331ee242b51aef3730c1555
+      internalID: 175566117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_17
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 231
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408196898899d894e913b7da0172d453
+      internalID: -958277126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_18
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 231
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acb06e04f4a2f14c8f5509b708a3949
+      internalID: -874889366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 231
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6819966a1e88cd64887a20fafe633786
+      internalID: -458649088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_20
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 231
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e76e6c232a7504595a4409559ab6b6
+      internalID: 2010395620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_21
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 231
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93873073c6fb1af44b8363013d07485c
+      internalID: 1846352926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_22
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 231
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da9cc6b780af314b992a036a27db391
+      internalID: -931780762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_23
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 231
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec17fc244aa1734dbcb0e1e477aaa7f
+      internalID: 876878635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 231
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce70fe7dd6f9d3419ec09184512a6e6
+      internalID: 1651387060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_25
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 231
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680de09e772e0d24f8aeffbe4d600585
+      internalID: -929342538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_26
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 231
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da80aaae810897d419e8d56a18f78397
+      internalID: -1705686499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 158
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2213e8b169491bd4cac94bf5b8565767
+      internalID: -1399610917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 158
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e55bd9e48ad6746b2727fbe746ed41
+      internalID: 1184829080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_29
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 158
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9001d546c363340bf1c3075bd0ff9d
+      internalID: 1112797149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_30
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 158
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78731c80fb4657944aff2f4f1367c362
+      internalID: 1854107201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_31
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 158
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fe7ccbeb4bc9e47830a21e5c36a8df
+      internalID: 959666507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_32
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 157
+        width: 35
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc334538e726f6841b0b51063b0630b7
+      internalID: -1530036548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_33
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 157
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c266c62ae52a645b31bdca8c5efe00
+      internalID: -1613759339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_34
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 157
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19190e1ef6b11a419d7b6f1bc301422
+      internalID: -1868109559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_35
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 158
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd80f92361008d498d06b386fa31b56
+      internalID: 1346883532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_36
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 158
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38abdef22bad32b4992c90b7d0a06790
+      internalID: 1088108773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_37
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 158
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f385d782b7809c4791dd8b34a3e9234
+      internalID: -1797889682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_38
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 102
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90db9b0f991caf4380d5d2fc62104cd
+      internalID: 1126440843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_39
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 102
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605baba7b83239a4d948d95c40002f58
+      internalID: 1480553832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_40
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 102
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466a1450a4f84394486566ef34a16057
+      internalID: -119193319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_41
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 102
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb088bc057174e4fbcd90ebe7208473
+      internalID: 810190563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_42
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 102
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf89f07d9ee07494b8ec7f7d8c0be627
+      internalID: -1942645462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Master_System_-_Rampage_-_George-transformed_43
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 102
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84764c965bc0ac46b639fef7b42b384
+      internalID: -1496033482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Master_System_-_Rampage_-_George-transformed_0: 2006730492
+      Master_System_-_Rampage_-_George-transformed_1: -1530598194
+      Master_System_-_Rampage_-_George-transformed_10: -1424835081
+      Master_System_-_Rampage_-_George-transformed_11: 1248215558
+      Master_System_-_Rampage_-_George-transformed_12: -886405025
+      Master_System_-_Rampage_-_George-transformed_13: -1141657075
+      Master_System_-_Rampage_-_George-transformed_14: -2097561892
+      Master_System_-_Rampage_-_George-transformed_15: 1710059001
+      Master_System_-_Rampage_-_George-transformed_16: 175566117
+      Master_System_-_Rampage_-_George-transformed_17: -958277126
+      Master_System_-_Rampage_-_George-transformed_18: -874889366
+      Master_System_-_Rampage_-_George-transformed_19: -458649088
+      Master_System_-_Rampage_-_George-transformed_2: 2082048521
+      Master_System_-_Rampage_-_George-transformed_20: 2010395620
+      Master_System_-_Rampage_-_George-transformed_21: 1846352926
+      Master_System_-_Rampage_-_George-transformed_22: -931780762
+      Master_System_-_Rampage_-_George-transformed_23: 876878635
+      Master_System_-_Rampage_-_George-transformed_24: 1651387060
+      Master_System_-_Rampage_-_George-transformed_25: -929342538
+      Master_System_-_Rampage_-_George-transformed_26: -1705686499
+      Master_System_-_Rampage_-_George-transformed_27: -1399610917
+      Master_System_-_Rampage_-_George-transformed_28: 1184829080
+      Master_System_-_Rampage_-_George-transformed_29: 1112797149
+      Master_System_-_Rampage_-_George-transformed_3: -515806327
+      Master_System_-_Rampage_-_George-transformed_30: 1854107201
+      Master_System_-_Rampage_-_George-transformed_31: 959666507
+      Master_System_-_Rampage_-_George-transformed_32: -1530036548
+      Master_System_-_Rampage_-_George-transformed_33: -1613759339
+      Master_System_-_Rampage_-_George-transformed_34: -1868109559
+      Master_System_-_Rampage_-_George-transformed_35: 1346883532
+      Master_System_-_Rampage_-_George-transformed_36: 1088108773
+      Master_System_-_Rampage_-_George-transformed_37: -1797889682
+      Master_System_-_Rampage_-_George-transformed_38: 1126440843
+      Master_System_-_Rampage_-_George-transformed_39: 1480553832
+      Master_System_-_Rampage_-_George-transformed_4: -580214109
+      Master_System_-_Rampage_-_George-transformed_40: -119193319
+      Master_System_-_Rampage_-_George-transformed_41: 810190563
+      Master_System_-_Rampage_-_George-transformed_42: -1942645462
+      Master_System_-_Rampage_-_George-transformed_43: -1496033482
+      Master_System_-_Rampage_-_George-transformed_5: -677178840
+      Master_System_-_Rampage_-_George-transformed_6: 1684087357
+      Master_System_-_Rampage_-_George-transformed_7: 665185735
+      Master_System_-_Rampage_-_George-transformed_8: 56622413
+      Master_System_-_Rampage_-_George-transformed_9: 948017482
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
