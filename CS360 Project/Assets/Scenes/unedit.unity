@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 739816523}
   - component: {fileID: 739816522}
   - component: {fileID: 739816521}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TestPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,7 +382,7 @@ MonoBehaviour:
   groundCheck: {fileID: 1924563513}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   animator: {fileID: 1147111117}
 --- !u!4 &1147111113
 Transform:
@@ -489,7 +489,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1147111111}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 12c98ebfe57013b4fb6f8ff49345f073, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
