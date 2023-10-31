@@ -13,7 +13,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;  
     [SerializeField] private Animator animator;
-    
+
+
 
     // Update is called once per frame
     void Update()
@@ -21,21 +22,22 @@ public class PlayerMovement : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         Flip();
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
-    }
 
-    private void FixedUpdate()
-    {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        if (horizontal != 0){
+            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        }
     }
 
     private void Flip()
     {
-        if (isFacingLeft && horizontal < 0f || !isFacingLeft && horizontal > 0f)
-        {
-            isFacingLeft = !isFacingLeft;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= 1f;
-            transform.localScale = localScale;
+        if (isFacingLeft && horizontal > 0f || !isFacingLeft && horizontal < 0f)
+            {
+                isFacingLeft = !isFacingLeft;
+                Vector3 localScale = transform.localScale;
+                localScale.x *= -1f;
+                transform.localScale = localScale;
+            
         }
+
     }
 }
