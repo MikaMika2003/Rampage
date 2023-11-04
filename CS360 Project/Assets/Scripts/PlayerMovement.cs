@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
-    private float jumpForce = 20f;
+    private float speed = 15f;
+    private float jumpForce = 40f;
     private bool isFacingLeft = true;
 
     [SerializeField] private Rigidbody2D rb;
@@ -23,14 +23,33 @@ public class PlayerMovement : MonoBehaviour
         Flip();
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
-        if(Input.GetButtonDown("Jump") && isGrounded())
+        if(Input.GetKeyDown("Jump") && isGrounded())
         {
             rb.velocity= new Vector2(rb.velocity.x, jumpForce);
+            animator.SetBool("IsJumping", true);
         }
 
-        if(Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        if(Input.GetKeyUp("Jump") && rb.velocity.y > 0f)
         {
             rb.velocity= new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+        }
+
+        if(Input.GetKey("up"))
+        {
+            animator.SetBool("LookingUp", true);
+            Debug.Log("Up Arrow Pressed");
+        } else
+        {
+            animator.SetBool("LookingUp", false);
+        }
+
+        if(Input.GetKey("down"))
+        {
+            animator.SetBool("LookingDown", true);
+            Debug.Log("Down Arrow Pressed");
+        } else
+        {
+            animator.SetBool("LookingDown", false);
         }
     }
 
