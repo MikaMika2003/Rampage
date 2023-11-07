@@ -23,13 +23,14 @@ public class PlayerMovement : MonoBehaviour
         Flip();
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
-        if(Input.GetKeyDown("Jump") && isGrounded())
+        if(Input.GetKey("space") && isGrounded())
         {
+            Debug.Log("Space Pressed");
             rb.velocity= new Vector2(rb.velocity.x, jumpForce);
             animator.SetBool("IsJumping", true);
         }
 
-        if(Input.GetKeyUp("Jump") && rb.velocity.y > 0f)
+        if(Input.GetKey("space") && rb.velocity.y > 0f)
         {
             rb.velocity= new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
@@ -37,7 +38,6 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKey("up"))
         {
             animator.SetBool("LookingUp", true);
-            Debug.Log("Up Arrow Pressed");
         } else
         {
             animator.SetBool("LookingUp", false);
@@ -46,7 +46,6 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKey("down"))
         {
             animator.SetBool("LookingDown", true);
-            Debug.Log("Down Arrow Pressed");
         } else
         {
             animator.SetBool("LookingDown", false);
