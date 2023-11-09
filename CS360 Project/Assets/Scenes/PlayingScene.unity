@@ -1066,6 +1066,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerTest
       objectReference: {fileID: 0}
+    - target: {fileID: 8172046206273576938, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172046206273576938, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8866791454488677995, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 468

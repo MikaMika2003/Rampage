@@ -21,19 +21,19 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         Flip();
-        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+        animator.SetFloat("Speed", Mathf.Abs(horizontal * Time.deltaTime));
 
         if(Input.GetKey("space") && isGrounded())
         {
             Debug.Log("Space Pressed");
-            rb.velocity= new Vector2(rb.velocity.x, jumpForce);
-            animator.SetBool("IsJumping", true);
+            rb.velocity= new Vector2(rb.velocity.x, jumpForce * Time.deltaTime);
+            animator.SetBool("IsJumping", true); 
         }
 
-        if(Input.GetKey("space") && rb.velocity.y > 0f)
+        /* if(Input.GetKey("space") && rb.velocity.y > 0f)
         {
-            rb.velocity= new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-        }
+            rb.velocity= new Vector2(rb.velocity.x, rb.velocity.y * 0.5f * Time.deltaTime);
+        } */
 
         if(Input.GetKey("up"))
         {
