@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 15f;
-    private float jumpForce = 40f;
+    public float speed = 15f;
+    public float jumpForce = 40f;
     private bool isFacingLeft = true;
 
     [SerializeField] private Rigidbody2D rb;
@@ -17,23 +17,17 @@ public class PlayerMovement : MonoBehaviour
 
 
     // Update is called once per frame
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
         Flip();
-        animator.SetFloat("Speed", Mathf.Abs(horizontal * Time.deltaTime));
-
-        if(Input.GetKey("space") && isGrounded())
-        {
-            Debug.Log("Space Pressed");
-            rb.velocity= new Vector2(rb.velocity.x, jumpForce * Time.deltaTime);
-            animator.SetBool("IsJumping", true); 
-        }
-
-        /* if(Input.GetKey("space") && rb.velocity.y > 0f)
-        {
-            rb.velocity= new Vector2(rb.velocity.x, rb.velocity.y * 0.5f * Time.deltaTime);
-        } */
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
         if(Input.GetKey("up"))
         {
@@ -52,9 +46,21 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+
+        if(Input.GetButtonDown("Jump") && isGrounded())
+        {
+            animator.SetBool("IsJumping", true); 
+            rb.velocity= new Vector2(rb.velocity.x, jumpForce);
+            
+        }
+
+        if(Input.GetButtonDown("Jump") && rb.velocity.y > 0f)
+        {
+            rb.velocity= new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+        } 
     }
 
     private bool isGrounded()
