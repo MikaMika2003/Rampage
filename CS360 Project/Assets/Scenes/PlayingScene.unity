@@ -898,7 +898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1806800808607557950, guid: c75506d177e81be4c9ee2eaf70e5650f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -29
+      value: -21
       objectReference: {fileID: 0}
     - target: {fileID: 1806800808607557950, guid: c75506d177e81be4c9ee2eaf70e5650f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -939,6 +939,10 @@ PrefabInstance:
     - target: {fileID: 7228092889189163707, guid: c75506d177e81be4c9ee2eaf70e5650f, type: 3}
       propertyPath: m_Name
       value: TestPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228092889189163707, guid: c75506d177e81be4c9ee2eaf70e5650f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1065,30 +1069,6 @@ PrefabInstance:
     - target: {fileID: 2994688597002255841, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
       propertyPath: m_Name
       value: PlayerTest
-      objectReference: {fileID: 0}
-    - target: {fileID: 7974432056824237469, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2.4125
-      objectReference: {fileID: 0}
-    - target: {fileID: 7974432056824237469, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.2481
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172046206273576938, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172046206273576938, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
-      propertyPath: m_Interpolate
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172046206273576938, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
-      propertyPath: m_GravityScale
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172046206273576938, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8866791454488677995, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
       propertyPath: m_LocalPosition.x
