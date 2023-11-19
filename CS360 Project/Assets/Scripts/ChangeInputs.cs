@@ -19,6 +19,7 @@ public class ChangeInputs : MonoBehaviour
     }
 
     // Update is called once per frame
+    // This is for when the user clicks tab to go to the next input field
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab) && Input.GetKey(KeyCode.LeftShift)) {
