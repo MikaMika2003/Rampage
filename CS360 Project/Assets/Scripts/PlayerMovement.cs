@@ -46,9 +46,20 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("LookingDown", false);
         }
 
+        if(Input.GetKeyDown(KeyCode.Z))
+        {
+            animator.SetBool("IsPunching", true);
+            StartCoroutine(WaitSecond());
+            animator.SetBool("IsPunching", false);
+        }
+
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
 
         Jumping();
+    }
+
+    IEnumerator WaitSecond(){
+        yield return new WaitForSeconds(1);
     }
 
     private void Jumping()
