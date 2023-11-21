@@ -601,7 +601,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 450, y: 189, z: -225}
-  m_LocalScale: {x: 1.0374, y: 1.1856, z: 1.1856}
+  m_LocalScale: {x: 6.742685, y: 7.705926, z: 7.705926}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -1073,6 +1073,14 @@ PrefabInstance:
     - target: {fileID: 2994688597002255841, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
       propertyPath: m_Name
       value: PlayerTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172046206273576938, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8172046206273576938, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8866791454488677995, guid: 6d4e6765dcf5b0a45b7f06fd5632c7c6, type: 3}
       propertyPath: m_LocalScale.x
