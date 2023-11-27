@@ -15,5 +15,12 @@ public class OpenGame : MonoBehaviour
             // Load your target scene
             SceneManager.LoadScene("PlayingScene");
         }
+
+        // Check if the "L" key is pressed
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            // Load your target scene
+            SceneManager.LoadScene("Leaderboard");
+        }
     }
 }
