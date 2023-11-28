@@ -14,7 +14,7 @@ public class ToStart : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             // Load your target scene
-            SceneManager.LoadScene("PlayingScene");
+            SceneManager.LoadScene("StartScene");
         }
 
          // Check if the "F" key is pressed

@@ -6,26 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PlayingScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/Scenes/LoginRegister.unity
     guid: c8855a140c45dd54aa0cd1467db4a83c
   - enabled: 1
-    path: Assets/Scenes/Leaderboard.unity
-    guid: f474ca7114c669f43b46931fd197f85d
-  - enabled: 0
-    path: Assets/Scenes/Register.unity
-    guid: 7d76da0910ae59849a820da589fda3a7
-  - enabled: 1
-<<<<<<< Updated upstream
-    path: Assets/Scenes/StartScene.unity
-    guid: 07b81e2a9125698469cb1d02f3cefbb8
-=======
     path: Assets/LoseScene.unity
     guid: 2a5007d17aec5024a8bacc6ecbfab713
   - enabled: 1
+    path: Assets/Scenes/PlayingScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 07b81e2a9125698469cb1d02f3cefbb8
+  - enabled: 1
     path: Assets/WinScene.unity
     guid: e997f5f367fbac84ab3bdeec0788f17a
->>>>>>> Stashed changes
+  - enabled: 1
+    path: Assets/Scenes/Leaderboard.unity
+    guid: f474ca7114c669f43b46931fd197f85d
   m_configObjects: {}
