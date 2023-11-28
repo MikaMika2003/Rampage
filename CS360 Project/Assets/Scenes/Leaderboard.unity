@@ -850,6 +850,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   messageText: {fileID: 0}
+  emailInput: {fileID: 0}
+  passwordInput: {fileID: 0}
+  registerBtn: {fileID: 0}
+  loginBtn: {fileID: 0}
+  Get_LB_Btn: {fileID: 46052797}
+  Back_Btn: {fileID: 367891028}
   rowPrefab: {fileID: 1069621040156498401, guid: d2f2e66cc4f63e04e9a51ca2e1700421, type: 3}
   rowsParent: {fileID: 864753116}
 --- !u!1 &822674742
