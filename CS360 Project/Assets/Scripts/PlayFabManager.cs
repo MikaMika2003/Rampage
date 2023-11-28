@@ -6,6 +6,7 @@ using PlayFab;
 using System;
 using UnityEngine.UI;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 // This code is not yet complete
 public class PlayFabManager : MonoBehaviour
@@ -110,8 +111,16 @@ public class PlayFabManager : MonoBehaviour
     // If the score is updated it updates the leaderboard
     void OnLeaderboardUpdate(UpdatePlayerStatisticsResult result)
     {
-        Debug.Log("Successful leaderboard sent!");
+        Debug.Log("Successful leaderboard sent!");       
+
+        // Check if the "B" key is pressed
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            // Load your target scene
+            SceneManager.LoadScene("StartScene");
+        }
     }
+ 
 
     // Gets the leaderboard
     public void GetLeaderboard() {
