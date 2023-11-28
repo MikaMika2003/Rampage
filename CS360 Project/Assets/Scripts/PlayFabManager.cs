@@ -126,7 +126,7 @@ public class PlayFabManager : MonoBehaviour
         for (int i = 0; i < numberOfEntries; i++)
         {
             // Generate a random score
-            int randomScore = UnityEngine.Random.Range(1000, 5000);
+            int randomScore = UnityEngine.Random.Range(0, 3);
 
             // Call the method to send the random score to the leaderboard
             SendLeaderboard(randomScore);
