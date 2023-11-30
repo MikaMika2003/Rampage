@@ -1,24 +1,26 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Prototype diagram showing how most of our }}{6}{figure.caption.6}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Observer diagram shows }}{6}{figure.caption.7}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Façade diagram shows the relationship between the player and enemies.}}{7}{figure.caption.8}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Use case diagram showing the player interactions with the game.}}{8}{figure.caption.9}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Use Case Scenario 1}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Use Case Scenario 2}}{9}{figure.caption.11}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Sequence diagram on the overall software function.}}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {8}{\ignorespaces State diagram on the overall game state.}}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Component diagram showing the how aspects of our game feeds into Unity and interfaces.}}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Deployment diagram showing how our game is deployed.}}{13}{figure.caption.15}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Requirements Traceability Table.}}{14}{figure.caption.16}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Data dictionary table game objects.}}{15}{figure.caption.17}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Data dictionary table collisions.}}{16}{figure.caption.18}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Data dictionary table game mechanics.}}{16}{figure.caption.19}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Data dictionary table user interface.}}{17}{figure.caption.20}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Data dictionary table audio.}}{18}{figure.caption.21}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Diagram of Rampage Gameplay.}}{19}{figure.caption.22}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Image of Register Screen.}}{20}{figure.caption.23}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Image of Login Screen.}}{20}{figure.caption.24}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Image of Pause and Main Menus.}}{25}{figure.caption.25}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Images of the wireframes for main menu and gameplay.}}{26}{figure.caption.26}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Model showing trust boundaries and security risks.}}{26}{figure.caption.27}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Graph depicting the number of threads vs execution time.}}{27}{figure.caption.28}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Graph depicting file size vs throughput.}}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Image of wireframe.}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Image of storyboard.}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Prototype diagram showing how most of our }}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Observer diagram shows }}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Façade diagram shows the relationship between the player and enemies.}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Use case diagram showing the player interactions with the game.}}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Use Case Scenario 1}}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Use Case Scenario 2}}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Sequence diagram on the overall software function.}}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {10}{\ignorespaces State diagram on the overall game state.}}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Component diagram showing the how aspects of our game feeds into Unity and interfaces.}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Deployment diagram showing how our game is deployed.}}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Requirements Traceability Table.}}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Data dictionary table game objects.}}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Data dictionary table collisions.}}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Data dictionary table game mechanics.}}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Data dictionary table user interface.}}{18}{figure.caption.22}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Data dictionary table audio.}}{19}{figure.caption.23}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Diagram of Rampage Gameplay.}}{20}{figure.caption.24}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Image of Register Screen.}}{21}{figure.caption.25}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Image of Login Screen.}}{21}{figure.caption.26}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Image of Pause and Main Menus.}}{26}{figure.caption.27}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Images of the wireframes for main menu and gameplay.}}{27}{figure.caption.28}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Model showing trust boundaries and security risks.}}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Graph depicting the number of threads vs execution time.}}{28}{figure.caption.30}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Graph depicting file size vs throughput.}}{28}{figure.caption.31}%
