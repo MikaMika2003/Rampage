@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         Flip();
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
-
+        // Code to Look Up
         if(Input.GetKey("up"))
         {
             animator.SetBool("LookingUp", true);
@@ -46,7 +46,8 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("LookingDown", false);
         }
 
-        if(Input.GetKeyDown(KeyCode.Z))
+        // Code for punching
+        if(Input.GetKey(KeyCode.Z))
         {
             animator.SetBool("IsPunching", true);
             StartCoroutine(WaitSecond());
@@ -61,7 +62,8 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator WaitSecond(){
         yield return new WaitForSeconds(1);
     }
-
+    
+    // Jump Code
     private void Jumping()
     {
         animator.SetBool("IsJumping", !isGrounded()); 
@@ -74,12 +76,13 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-
+    // Detects ground
     private bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     } 
 
+    // Flips the character
     private void Flip()
     {
         if (isFacingLeft && horizontal > 0f || !isFacingLeft && horizontal < 0f)
