@@ -22,18 +22,22 @@ public class ChangeInputs : MonoBehaviour
     // This is for when the user clicks tab to go to the next input field
     void Update()
     {
+        // Checks if the the tab and left shift is clicked
         if (Input.GetKeyDown(KeyCode.Tab) && Input.GetKey(KeyCode.LeftShift)) {
             Selectable previous = system1.currentSelectedGameObject.GetComponent<Selectable>().FindSelectableOnUp();
             if(previous != null) {
                 previous.Select();
             }
         }
+        // Checks if the tab is clicked
         else if (Input.GetKeyDown(KeyCode.Tab)) {
             Selectable next = system1.currentSelectedGameObject.GetComponent<Selectable>().FindSelectableOnDown();
             if(next != null) {
                 next.Select();
             }
-        } else if (Input.GetKeyDown(KeyCode.Return)) {
+        }
+        // Checks if the enter button is clicked 
+        else if (Input.GetKeyDown(KeyCode.Return)) {
             submitBtn.onClick.Invoke();
             Debug.Log("Button pressed!");
         }

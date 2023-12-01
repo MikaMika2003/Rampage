@@ -8,7 +8,7 @@ using UnityEngine.UI;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 
-// This code is not yet complete
+// This class is used for interacting with our PlayFab database
 public class PlayFabManager : MonoBehaviour
 {
     [Header("UI")]
@@ -53,6 +53,7 @@ public class PlayFabManager : MonoBehaviour
         SceneManager.LoadScene("StartScene");
     }
 
+    // If the register and login button is pressed, it checks to ensure that the inputs are valid
     public void RegisterButton() {
 
         if (passwordInput.text.Length < 6) {
@@ -82,7 +83,7 @@ public class PlayFabManager : MonoBehaviour
     }
 
 
-
+    // If the login button is pressed then it checks user validation within the PlayFab database
     public void LoginButton() {
         var request = new LoginWithEmailAddressRequest {
             Email = emailInput.text, 

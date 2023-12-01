@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-// This class is not complete as yet but these are the basic fundamentals until
-// the character and npcs have been implemented
+// This class was not used
+
 public class HealthBarManager : MonoBehaviour
 {
     

@@ -331,7 +331,11 @@ We had to take into consideration aspects within the scope of the logical system
 \subsection{Wireframes and Storyboard}
 %250 words minimum
 % Use wireframes to create scenes and images of the user interface.  Connect the wireframes to show progression through the product to create a storyboard.  Describe the wireframes and storyboard.
-Text goes here.
+From the wireframe, we have one for our start menu as well as for the main playing scene. On the start menu, you can either start the game or view the leaderboard. Instead of on-screen buttons we have implemented where you can click 'F' or 'L' on your keyboard to start game or view leaderbaord. On the main playing scene, there are outlines for the buildings we implemented as well as the HUD. Unfortunately, we were unable to implement this design for our HUD due to numerous issues with Unity and time constraints, so we ended with a much more simple HUD design. Also we settled for three buildings rather than four. 
+
+From the storyboard we created, there are 4 different scences. First, there is a login scene where a user can login with an existing account and a separate register scene where a new user can create an account. From there, they meet a start menu with two buttons, start and view scores. When teh start is clicked, the user is thrown into the playing scene where they lose if they lost all health or win if they destroy all of the buildings. 
+
+Due to unity issues, we merged our login and register functions within one singular scene. We also simplified our playing scene which had a simpler HUD function and different character and npcs functionality. 
 
 %uncomment the section below when you're ready to insert an image
 \begin{figure}[h!]
@@ -981,11 +985,58 @@ Text goes here.
 %---------------------------Integration Testing-------------------------------------
 \subsection{Integration Testing}
 %copy of the completed Integration test plan should be placed here.
-Text goes here.
+
 
 \subsubsection{Integration Tests and Results}
 %All integration tests results visualized (table, graph, etc.)
-Text goes here.
+\textbf{Test Plan Identifier:} %Provides a unique identifier for the test. Every test should have a unique identification number for reference.
+Integration Testing
+
+\textbf{Introduction:} % 50 words minimum. Brief description and objective about the test type.
+We used integration testing to combine the code and assets for our game. The main goal of using this is to combine every asset into one scene so we can fix any errors that surround the actual gameplay. The game should have a high and consistent framerate without changing settings.
+
+\textbf{Test item:} %50 words minimum. Includes detailed information about the Software Under Test (SUT).
+The main software we used to test data is on Unity, a game engine. The games created in Unity can be played on multiple platforms like PC, Switch, X-Box, etc. The planned system it will be tested on is PC and Mac since they are the easiest to grasp and understand. We also used Sysbench to view any drops in the CPU and GPU.
+
+\textbf{Features to test/not to test:} %50 words minimum. In scope features. This could be newly added or updated features. Out of scope features not tested. [Provide reasoning for exclusion, like, non-impacted, low priority, etc.]
+One of the main goals for the Rampage recreation is that the character should move left and right as well as jump and animations. We decided to exclude the environment as well as the environment size because they are low priority and the team wanted to focus on documentation and polishing the game more.
+
+\textbf{Approach:} %50 words minimum. Strategy to test the software. Includes types of tests and how to test. Functional, performance, security testing using combined [manual + automation], manual only, automation only approach.
+We tested the software by using the bottom-up method in which small parts of the program were tested before testing the main module. We had separate scenes to test the necessary parts before being put in the main scene. Then we would play it, find issues, and try to solve the code and its performance.
+
+\textbf{Test deliverables:} %50 words minimum. All the deliverables from the testing e.g. approaches, test cases, reports etc.
+We used Sysbench to detect any drops in framerates as well as to see if there were any bottlenecks that were present in the system. When inside the code, we would use debug log to make sure that every button-press and anything UI related would function correctly and will not hold back other aspects of the game.
+
+\textbf{Item pass/fail criteria:} %50 words minimum. Entry and Exit criteria for all items. 
+For entry criteria, before we start testing code, we must make sure that the test environment was set up and ready to code and the testable code was available. Exit criteria for this project is the deadline is met or most of the bug that were spotted in the code were fixed.
+
+\textbf{Environmental needs:} %50 words minimum. Infrastructure required for SUT and executing test cases.
+For the game to function, it must run on a Windows 10, Mac, or any up-to-date PC device. The system should also run on at least 64GB for optimal performance. It would be best to store the game on an external hard drive with at least 64GB or a regular computer with the same number of GB.
+
+\textbf{Responsibilities:} %50 words minimum. Roles and responsibilities for various testing / supported activities.
+One person was responsible for main menu, the other NPCS, and the other for the main character. Everyone on our team is responsible for testing their code and placement based on what they chose to work on. We are also responsible for giving each other feedback on any element that is not right when put into the main scene.
+
+\textbf{Staffing and training needs:} %50 words minimum. Training needs to bridge the gap of available and expected skill.
+The staff must have some coding experience, experience with C\#, or some familiarity with Unity. Anyone who doesn’t have any experience with C\# can get some insight from more experienced staff. The training will help with typing faster as well as being familiar with C\# to make progress faster. The staff must also be able to notice any bugs and report them to the developers or detect where the problem lies and edit them out.
+
+\textbf{Schedule:} %50 words minimum.  Test schedule should also be noted in the Gantt Chart. Test estimation (Efforts) and high-level schedule. Schedule should be for key deliverables or important milestones. Ideally, all test deliverables included in the test plan should be scheduled.
+Test schedule should also be noted in the Gantt Chart. Test estimation (Efforts) and high-level schedule. Schedule should be for key deliverables or important milestones. Ideally, all test deliverables included in the test plan should be scheduled. On November 21st to December 1st, we have been testing all codes for all assets. We would spend at least a few hours a day to make sure the player and menu are functioning as expected and that audio is present. At this moment, we are 50\% done with testing and we are now focusing on doing our documentation.
+
+\textbf{Risks and Mitigation:} %100 words minimum. Risk identification for applicable items, assumptions, and mitigation plan.
+When we implemented our assets into the same scene, we assumed that the game would cause a slow frame rate, and while some of that was true, the gravity of the characters would also mess up along with it. To fix these problems, we would have to turn off background apps and edit the gravity in the Unity menu. We also had to minimize any settings like graphics and controls which sped the game up significantly. For any errors in the code, we would look over and change certain aspects of it until the code, at least, somewhat works for what is intended of it.
+
+\textbf{Approvals:} %Approvals and sign of dates.
+As a team, we have all signed off and approved of all of our testing done on Nov. 29th with our client and Nov. 30th. 
+
+\subsubsection{Integration Tests and Results}
+%All integration tests results visualized (table, graph, etc.)
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{diagrams/Integration_Visual.png}
+    \caption{Integration testing visual.}
+    \label{integration_testing}
+\end{figure}
+
 
 
 %---------------------------End Integration Testing-------------------------------------
@@ -996,11 +1047,57 @@ Text goes here.
 %---------------------------System Testing-------------------------------------
 \subsection{System Testing}
 %copy of the completed System test plan should be placed here.
-Text goes here.
+
+\textbf{Test Plan Identifier:} %Provides a unique identifier for the test. Every test should have a unique identification number for reference.
+SystemTesting
+
+\textbf{Introduction:} % 50 words minimum. Brief description and objective about the test type.
+System testing is done to check the behaviour of the complete software based on software requirements. In this test, we will test whether the system functionalities are behaving as expected and specified in software requirements document, that the user interfaces are user friendly and easy to operate and use, and that the system guide is correct and complete.
+
+\textbf{Test item:} %50 words minimum. Includes detailed information about the Software Under Test (SUT).
+The software that we tested was a unity-made game that had numerous different functionalities, such as being able to login or register an account, viewing a leaderboard, and play the gameplay related to the game. The login/register and leaderboard scene use an external database to store and get its user data. We will test the functionality of these actions within the scene. 
+
+\textbf{Features to test/not to test:} %50 words minimum. In scope features. This could be newly added or updated features. Out of scope features not tested. [Provide reasoning for exclusion, like, non-impacted, low priority, etc.]
+The features that we tested were whether the user can register a new account or login with an existing account, do all of the scenes load as expected, and does the leaderboard get existing. We did not test whether there was a way for the user to cheat within the game and we did not check whether the game was compatible with other operating systems such as macOS because we ran out of time.  
+
+\textbf{Approach:} %50 words minimum. Strategy to test the software. Includes types of tests and how to test. Functional, performance, security testing using combined [manual + automation], manual only, automation only approach.
+For the functional testing, we played the game ourselves to ensure that it was functioning as expected. To test the login/register, we would register multiple accounts as well as login with those to ensure that multiple accounts are possible. For documentation testing, we would ensure that all of our documentation is accurate to what we implemented for the game. For usability testing, we would ensure that the game is user friendly.  
+
+\textbf{Test deliverables:} %50 words minimum. All the deliverables from the testing e.g. approaches, test cases, reports etc.
+Test cases for the system testing would be, “Is the user able to login/register an account?”, “Is the user able to switch from scenes?”, “Is the user able to play the game and win/lose?”, “Is the user able to see the leaderboard?” All of these tests passed and fulfilled the required function. 
+
+\textbf{Item pass/fail criteria:} %50 words minimum. Entry and Exit criteria for all items. 
+For the login/register scene to pass our needed criteria, the user would have to successfully register an account that will show up in online platform as well as be able to access that account when trying to login. For the loading of scenes, each scene would have to load successfully without errors. The leaderboard would also have to be able to access the database and obtain the leaderboard data. The player would also have to be able to win or lose within the actual gameplay. Otherwise, the tests would fail the criteria. 
+
+\textbf{Environmental needs:} %50 words minimum. Infrastructure required for SUT and executing test cases.
+For the software to run smoothly, the user would have to have access to Unity and a windows pc. We were unable to test whether it was playable on a Mac so we are unsure about that environment. The user would need to ensure that their system fulfilled all of the software requirements needed for Unity itself. 
+
+\textbf{Responsibilities:} %50 words minimum. Roles and responsibilities for various testing / supported activities.
+The documented software testing was done by Tameka. The team as a whole went through the various functions of the game to ensure they fulfilled what we had all expected. The database was entirely monitored and implemented by Tameka so testing involving the database was done and seen to by her. 
+
+\textbf{Staffing and training needs:} %50 words minimum. Training needs to bridge the gap of available and expected skill.
+The needed training would be learning more about system testing and how to go about the various types of system testing. Testing is an important part of software development so a better understanding on it would improve knowledge and skills significantly. To further increase software testing skills, we can utilise opportunities such as this course to help advance those skills.
+\textbf{Schedule:} %50 words minimum.  Test schedule should also be noted in the Gantt Chart. Test estimation (Efforts) and high-level schedule. Schedule should be for key deliverables or important milestones. Ideally, all test deliverables included in the test plan should be scheduled.
+For the software testing specifically, it was scheduled to be done by Nov. 30th. Based on the Gantt Chart, we scheduled and completed all of the prioritised tests during the last week of the sprint. This goes for the documentation for the testing as well as the test cases and their results. 
+
+\textbf{Risks and Mitigation:} %100 words minimum. Risk identification for applicable items, assumptions, and mitigation plan.
+A risk that could have transpired was that our database, if not implemented correctly, was not connected to our game. This would cause issues with logging in or registering as well as going further than the login/register scene. Additionally, if the database did not connect, there would be no way of viewing scores on the leaderboard either. To mitigate this, we would have to implement our database differently and not use an online platform to store user data. \\
+Another risk would be that the system crashed due to errors within the code. This could be mitigated by code review and isolating where the issue is occurring. 
+
+\textbf{Approvals:} %Approvals and sign of dates.
+As a team, we have all signed off and approved of all of our testing done on Nov. 29th with our client and Nov. 30th. 
+
 
 \subsubsection{System Tests and Results}
 %All system tests results visualized (table, graph, etc.)
-Text goes here.
+
+%uncomment the section below when you're ready to insert an image
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{diagrams/System_Testing_Results.png}
+    \caption{System testing table results.}
+    \label{system_testing}
+\end{figure}
 
 
 %---------------------------End System Testing-------------------------------------
@@ -1055,14 +1152,498 @@ To build our project, ensure that you have Unity installed. We are using the 202
 
 \subsection{Software Product User Guide}
 %Include in this section an overview guide on how to use your software product for a general user and an administrative user.
-Text goes here.
+As an admin user, you can log into the PlayFab database using the shared username and password to view the database. Go to PlayFab.com. Here you can view the players that have registered and the leaderboard for scores. As admin, you can also delete remove users and change user information. 
+As a user, you can launch the game where you can either register or login to an account. After, you will be met with the start menu and you can press 'F' to start the game or 'L' to view leaderboard. Once the game is started you have to either destroy all buildings or come in contact with the npcs to be met with the game over scene. From there you can logout and login again if you wish to restart the game. 
 
 \subsection{Source Code with Comments}
 %Include in this section all final source code for the product.  Label each file with headings such as, C.1 file1.c, C.2 file2.c, C.3 file1.py, etc.  All source code should be effectively commented.
 
+\subsubsection{ChangeInputs.cs}
+
+\begin{verbatim}
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
+public class ChangeInputs : MonoBehaviour
+{
+
+    EventSystem system1;
+    public Selectable firstInput;
+    public Button submitBtn; 
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        system1 = EventSystem.current;
+        firstInput.Select();
+    }
+
+    // Update is called once per frame
+    // This is for when the user clicks tab to go to the next input field
+    void Update()
+    {
+        // Checks if the tab and left shift is clicked
+        if (Input.GetKeyDown(KeyCode.Tab) && Input.GetKey(KeyCode.LeftShift)) {
+            Selectable previous = system1.currentSelectedGameObject.GetComponent<Selectable>().FindSelectableOnUp();
+            if(previous != null) {
+                previous.Select();
+            }
+        }
+        // Checks if the tab is clicked
+        else if (Input.GetKeyDown(KeyCode.Tab)) {
+            Selectable next = system1.currentSelectedGameObject.GetComponent<Selectable>().FindSelectableOnDown();
+            if(next != null) {
+                next.Select();
+            }
+        }
+        // Checks if the enter button is clicked 
+        else if (Input.GetKeyDown(KeyCode.Return)) {
+            submitBtn.onClick.Invoke();
+            Debug.Log("Button pressed!");
+        }
+    }
+}
+\end{verbatim}
 
 
+\subsubsection{PlayFabManager.cs}
 
+\begin{verbatim}
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using PlayFab.ClientModels;
+using PlayFab;
+using System;
+using UnityEngine.UI;
+using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
+
+// This class is used for interacting with our PlayFab database
+public class PlayFabManager : MonoBehaviour
+{
+    [Header("UI")]
+    public Text messageText;
+    public InputField emailInput;
+    public InputField passwordInput;
+    public Button registerBtn;
+    public Button loginBtn;
+    public Button Get_LB_Btn; 
+    public Button Back_Btn;
+
+
+    void Start()
+    {
+        // Assign the RegisterButton method to the button's onClick event
+        if (registerBtn != null)
+        {
+            registerBtn.onClick.AddListener(RegisterButton);
+        }
+
+        if (loginBtn != null)
+        {
+            loginBtn.onClick.AddListener(LoginButton);
+        }
+        if (Get_LB_Btn != null) 
+        {
+            Get_LB_Btn.onClick.AddListener(GetLeaderboard);
+        }
+        if (Back_Btn != null) 
+        {
+            Back_Btn.onClick.AddListener(BackToStartScene);
+        }
+
+        AddRandomDataToLeaderboard();
+        
+        
+
+    }
+
+    // Scene manager that takes the user back to the start scene
+    public void BackToStartScene() {
+        SceneManager.LoadScene("StartScene");
+    }
+
+    // If the register and login button is pressed, it checks to ensure that the inputs are valid
+    public void RegisterButton() {
+
+        if (passwordInput.text.Length < 6) {
+            messageText.text = "Password too short!";
+            return;
+        }
+
+        var request = new RegisterPlayFabUserRequest {
+            Email = emailInput.text, 
+            Password = passwordInput.text,
+            RequireBothUsernameAndEmail = false 
+        };
+        PlayFabClientAPI.RegisterPlayFabUser(request, OnRegisterSuccess, OnRegisterError);
+    }
+
+    void OnRegisterSuccess(RegisterPlayFabUserResult result)
+    {
+        messageText.text = "Registered and logged in!";
+        Debug.Log("PlayFab User ID: " + result.PlayFabId);
+        SceneManager.LoadScene("StartScene");
+    }
+
+    void OnRegisterError(PlayFabError error)
+    {
+        messageText.text = error.ErrorMessage;
+        Debug.Log(error.GenerateErrorReport());
+    }
+
+
+    // If the login button is pressed then it checks user validation within the PlayFab database
+    public void LoginButton() {
+        var request = new LoginWithEmailAddressRequest {
+            Email = emailInput.text, 
+            Password = passwordInput.text
+        };
+        PlayFabClientAPI.LoginWithEmailAddress(request, OnLoginSuccess, OnLoginError);
+    
+    }
+
+    void OnLoginSuccess(LoginResult result)
+    {
+        messageText.text = "Logged in!";
+        Debug.Log("Successful login/create account!");
+        SceneManager.LoadScene("StartScene");
+    }
+
+    void OnLoginError(PlayFabError error)
+    {
+        messageText.text = error.ErrorMessage;
+        //Debug.Log("Error while logging in/creating account!");
+        Debug.Log(error.GenerateErrorReport());
+    }
+
+
+    // 
+    void OnError(PlayFabError error)
+    {
+        //messageText.text = error.ErrorMessage;
+        Debug.Log("Error while getting leaderboard");
+        Debug.Log(error.GenerateErrorReport());
+    }
+
+    public GameObject rowPrefab;
+    public Transform rowsParent;
+    
+    // Method to add random data to the leaderboard
+    public void AddRandomDataToLeaderboard()
+    {
+        int numberOfEntries = 5; // Adjust this based on the number of entries you want to add
+
+        for (int i = 0; i < numberOfEntries; i++)
+        {
+            // Generate a random score
+            int randomScore = UnityEngine.Random.Range(0, 3);
+
+            // Call the method to send the random score to the leaderboard
+            SendLeaderboard(randomScore);
+        }
+
+        // After adding the random data, refresh the leaderboard
+
+        GetLeaderboard();
+    }
+
+    
+    // For leaderboard scores to send to PlayFab
+    public void SendLeaderboard(int score) {
+        var request = new UpdatePlayerStatisticsRequest {
+            Statistics = new List<StatisticUpdate> {
+                new StatisticUpdate {
+                    StatisticName = "GainedPoints",
+                    Value = score
+                }
+            }
+        };
+        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboardUpdate, OnError);
+    }
+
+    // If the score is updated it updates the leaderboard
+    void OnLeaderboardUpdate(UpdatePlayerStatisticsResult result)
+    {
+        Debug.Log("Successful leaderboard sent!");       
+
+        // Check if the "B" key is pressed
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            // Load your target scene
+            SceneManager.LoadScene("StartScene");
+        }
+    }
+ 
+
+    // Gets the leaderboard
+    public void GetLeaderboard() {
+        Debug.Log("Attempting to get leaderboard...");
+        Get_LB_Btn.interactable = false;
+
+
+        var request = new GetLeaderboardRequest {
+            StatisticName = "GainedPoints",
+            StartPosition = 0,
+            MaxResultsCount = 10
+        };
+        PlayFabClientAPI.GetLeaderboard(request, OnLeaderboardGet, OnError);
+    }
+
+    // Shows the leaderboard
+    // Gets all the information like position, player name and score for each entry
+    void OnLeaderboardGet(GetLeaderboardResult result)
+    {
+
+        Get_LB_Btn.interactable = true;
+
+        // Remove all existing rows
+        foreach (Transform item in rowsParent) {
+            Destroy(item.gameObject);
+        }
+
+        foreach (var item in result.Leaderboard) {
+            GameObject newGo = Instantiate(rowPrefab, rowsParent);
+            Text[] texts = newGo.GetComponentsInChildren<Text>();
+
+            // Get position on leaderboard, then player id then player score
+            texts[0].text = (item.Position + 1).ToString();
+            texts[1].text = item.PlayFabId;
+            texts[2].text = item.StatValue.ToString();
+
+            Debug.Log(string.Format("PLACE: {0} | ID: {1} | VALUE: {2} ", 
+            item.Position + 1, item.PlayFabId, item.StatValue));
+        }
+    }   
+}
+\end{verbatim}
+
+
+\subsubsection{OpenGame.cs}
+
+\begin{verbatim}
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
+
+public class OpenGame : MonoBehaviour
+{
+    // Update is called once per frame
+    void Update()
+    {
+        // Check if the "F" key is pressed
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            // Load your target scene
+            SceneManager.LoadScene("PlayingScene");
+        }
+
+        // Check if the "L" key is pressed
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            // Load your target scene
+            SceneManager.LoadScene("Leaderboard");
+        }
+    }
+}
+\end{verbatim}
+
+\subsubsection{PlayerMovement.cs}
+
+\begin{verbatim}
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+// This file is used to control the main character's movements
+public class PlayerMovement : MonoBehaviour
+{
+    private float horizontal;
+    public float speed = 15f;
+    public float jumpForce = 30f;
+    private bool isFacingLeft = true;
+
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private LayerMask groundLayer;  
+    [SerializeField] private Animator animator;
+
+
+    // On start it gets the character and places it within the scene
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+    
+    // This used to determine and update the current  movement of the player 
+    void Update()
+    {
+        horizontal = Input.GetAxisRaw("Horizontal");
+        Flip();
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
+
+        // Checks if the up key is pressed 
+        if(Input.GetKey("up"))
+        {
+            animator.SetBool("LookingUp", true);
+        } else
+        {
+            animator.SetBool("LookingUp", false);
+        }
+
+        // Checks if the down key is pressed
+        if(Input.GetKey("down"))
+        {
+            animator.SetBool("LookingDown", true);
+        } else
+        {
+            animator.SetBool("LookingDown", false);
+        }
+
+        // Checks if the z key is pressed
+        if(Input.GetKeyDown(KeyCode.Z))
+        {
+            animator.SetBool("IsPunching", true);
+            StartCoroutine(WaitSecond());
+            animator.SetBool("IsPunching", false);
+        }
+
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+
+        Jumping();
+    }
+
+    // Introduces a wait period for character movement
+    IEnumerator WaitSecond(){
+        yield return new WaitForSeconds(1);
+    }
+
+    // Checks if the space button is pressed 
+    private void Jumping()
+    {
+        animator.SetBool("IsJumping", !isGrounded()); 
+
+        if(Input.GetButtonDown("Jump") && isGrounded())
+        {
+            rb.velocity= new Vector2(rb.velocity.x, jumpForce);
+            
+        }
+    }
+
+
+    // Keeps the character grounded to the added platform 
+    private bool isGrounded()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+    } 
+
+    // Checks the direction in which the character is facing
+    private void Flip()
+    {
+        if (isFacingLeft && horizontal > 0f || !isFacingLeft && horizontal < 0f)
+            {
+                isFacingLeft = !isFacingLeft;
+                Vector3 localScale = transform.localScale;
+                localScale.x *= -1f;
+                transform.localScale = localScale;
+            
+        }
+
+    }
+}
+\end{verbatim}
+
+\subsubsection{HealthBarManager.cs}
+
+\begin{verbatim}
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+// This class was not used
+
+public class HealthBarManager : MonoBehaviour
+{
+    
+    // slider for the health bar 
+    Slider _healthSlider;
+
+    // Gets the slider component
+    private void Start()
+    {
+        _healthSlider = GetComponent<Slider>();
+    }
+
+    // sets the max health possible
+    public void SetMaxHealth(int maxHealth)
+    {
+        _healthSlider.maxValue = maxHealth;
+        _healthSlider.value = maxHealth;
+    }
+
+    // sets the health value 
+    public void SetHealth(int health)
+    {
+        _healthSlider.value = health;
+    }
+
+
+}
+\end{verbatim}
+
+\subsubsection{ScoreManager.cs}
+
+\begin{verbatim}
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ScoreManager : MonoBehaviour
+{
+    public static ScoreManager instance;
+
+    public Text scoreText;
+
+    int score = 0;
+
+    // Call the database to get the highscore and set it to highscore
+    // int highscore = 0;
+
+
+    // This will be called at the very start of the game before Start() is called
+    // Will set an instance of the Manager that can be used in other classes
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        scoreText.text = score.ToString();
+    }
+
+
+    public void AddPoint()
+    {
+        //score += 1 //or however many points should be added
+        scoreText.text = score.ToString();
+
+        // To save the highscore
+        //if (hignscore < score) 
+        //    PlayerPrefs.SetInt("hignscore", score);
+      
+    }
+}
+\end{verbatim}
 
 
 %---------------------------End Appendix Section-------------------------------------------
