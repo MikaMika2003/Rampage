@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.1)  1 DEC 2023 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.1)  1 DEC 2023 20:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -384,6 +384,9 @@ LaTeX Warning: Label `data_dictionary' multiply defined.
 
 LaTeX Warning: Label `data_dictionary' multiply defined.
 
+
+LaTeX Warning: Label `unit_table' multiply defined.
+
 )
 \openout1 = `"Rampage - Technical Documentation.aux"'.
 
@@ -538,12 +541,12 @@ l.179 \end{table}
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2] [3] [4]
-<diagrams/Wireframe.png, id=456, 1109.94675pt x 445.06274pt>
+<diagrams/Wireframe.png, id=470, 1109.94675pt x 445.06274pt>
 File: diagrams/Wireframe.png Graphic file (type png)
 <use diagrams/Wireframe.png>
 Package pdftex.def Info: diagrams/Wireframe.png  used on input line 343.
 (pdftex.def)             Requested size: 542.02501pt x 217.33562pt.
-<diagrams/Storyboard.jpg, id=458, 4047.12pt x 3035.34pt>
+<diagrams/Storyboard.jpg, id=472, 4047.12pt x 3035.34pt>
 File: diagrams/Storyboard.jpg Graphic file (type jpg)
 <use diagrams/Storyboard.jpg>
 Package pdftex.def Info: diagrams/Storyboard.jpg  used on input line 350.
@@ -553,7 +556,7 @@ Package pdftex.def Info: diagrams/Storyboard.jpg  used on input line 350.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5 <./diagrams/Wireframe.png>]
-<diagrams/Prototype.png, id=464, 525.76425pt x 348.1005pt>
+<diagrams/Prototype.png, id=478, 525.76425pt x 348.1005pt>
 File: diagrams/Prototype.png Graphic file (type png)
 <use diagrams/Prototype.png>
 Package pdftex.def Info: diagrams/Prototype.png  used on input line 387.
@@ -562,7 +565,7 @@ Package pdftex.def Info: diagrams/Prototype.png  used on input line 387.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/Observer.jpeg, id=465, 706.64pt x 332.24126pt>
+<diagrams/Observer.jpeg, id=479, 706.64pt x 332.24126pt>
 File: diagrams/Observer.jpeg Graphic file (type jpg)
 <use diagrams/Observer.jpeg>
 Package pdftex.def Info: diagrams/Observer.jpeg  used on input line 396.
@@ -570,7 +573,7 @@ Package pdftex.def Info: diagrams/Observer.jpeg  used on input line 396.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/Facade.png, id=466, 590.80725pt x 353.52075pt>
+<diagrams/Facade.png, id=480, 590.80725pt x 353.52075pt>
 File: diagrams/Facade.png Graphic file (type png)
 <use diagrams/Facade.png>
 Package pdftex.def Info: diagrams/Facade.png  used on input line 405.
@@ -578,7 +581,7 @@ Package pdftex.def Info: diagrams/Facade.png  used on input line 405.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/UseCaseDiagram1.png, id=467, 398.08725pt x 314.3745pt>
+<diagrams/UseCaseDiagram1.png, id=481, 398.08725pt x 314.3745pt>
 File: diagrams/UseCaseDiagram1.png Graphic file (type png)
 <use diagrams/UseCaseDiagram1.png>
 Package pdftex.def Info: diagrams/UseCaseDiagram1.png  used on input line 425.
@@ -588,7 +591,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6 <./diagrams/Storyboard.jpg>] [7 <./diagrams/Prototype.png> <./diagrams/Obser
 ver.jpeg>]
-<diagrams/PrimaryUseCaseScenario.png, id=477, 542.62724pt x 330.033pt>
+<diagrams/PrimaryUseCaseScenario.png, id=492, 542.62724pt x 330.033pt>
 File: diagrams/PrimaryUseCaseScenario.png Graphic file (type png)
 <use diagrams/PrimaryUseCaseScenario.png>
 Package pdftex.def Info: diagrams/PrimaryUseCaseScenario.png  used on input lin
@@ -598,7 +601,7 @@ e 444.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/SecondaryUseCaseScenario.png, id=478, 611.28375pt x 265.59225pt>
+<diagrams/SecondaryUseCaseScenario.png, id=493, 611.28375pt x 265.59225pt>
 File: diagrams/SecondaryUseCaseScenario.png Graphic file (type png)
 <use diagrams/SecondaryUseCaseScenario.png>
 Package pdftex.def Info: diagrams/SecondaryUseCaseScenario.png  used on input l
@@ -607,7 +610,7 @@ ine 453.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/Sequence1.png, id=479, 311.9655pt x 341.47575pt>
+<diagrams/Sequence1.png, id=494, 311.9655pt x 341.47575pt>
 File: diagrams/Sequence1.png Graphic file (type png)
 <use diagrams/Sequence1.png>
 Package pdftex.def Info: diagrams/Sequence1.png  used on input line 472.
@@ -615,7 +618,7 @@ Package pdftex.def Info: diagrams/Sequence1.png  used on input line 472.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/StateDiagram.png, id=480, 542.62724pt x 338.4645pt>
+<diagrams/StateDiagram.png, id=495, 542.62724pt x 338.4645pt>
 File: diagrams/StateDiagram.png Graphic file (type png)
 <use diagrams/StateDiagram.png>
 Package pdftex.def Info: diagrams/StateDiagram.png  used on input line 490.
@@ -624,7 +627,7 @@ Package pdftex.def Info: diagrams/StateDiagram.png  used on input line 490.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8 <./diagrams/Facade.png>]
-<diagrams/Component.png, id=487, 634.7715pt x 393.8715pt>
+<diagrams/Component.png, id=501, 634.7715pt x 393.8715pt>
 File: diagrams/Component.png Graphic file (type png)
 <use diagrams/Component.png>
 Package pdftex.def Info: diagrams/Component.png  used on input line 509.
@@ -633,7 +636,7 @@ Package pdftex.def Info: diagrams/Component.png  used on input line 509.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/Deployment.png, id=488, 278.84175pt x 221.628pt>
+<diagrams/Deployment.png, id=502, 278.84175pt x 221.628pt>
 File: diagrams/Deployment.png Graphic file (type png)
 <use diagrams/Deployment.png>
 Package pdftex.def Info: diagrams/Deployment.png  used on input line 528.
@@ -641,7 +644,7 @@ Package pdftex.def Info: diagrams/Deployment.png  used on input line 528.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/TraceabilityTable.png, id=489, 928.6695pt x 388.45125pt>
+<diagrams/TraceabilityTable.png, id=503, 928.6695pt x 388.45125pt>
 File: diagrams/TraceabilityTable.png Graphic file (type png)
 <use diagrams/TraceabilityTable.png>
 Package pdftex.def Info: diagrams/TraceabilityTable.png  used on input line 555
@@ -653,7 +656,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [9 <./diagrams/UseCaseDiagram1.png>] [10 <./diagrams/PrimaryUseCaseScenario.png
 > <./diagrams/SecondaryUseCaseScenario.png>] [11 <./diagrams/Sequence1.png>]
 [12 <./diagrams/StateDiagram.png>]
-<diagrams/DataDictionary1.png, id=512, 413.1435pt x 349.90726pt>
+<diagrams/DataDictionary1.png, id=526, 413.1435pt x 349.90726pt>
 File: diagrams/DataDictionary1.png Graphic file (type png)
 <use diagrams/DataDictionary1.png>
 Package pdftex.def Info: diagrams/DataDictionary1.png  used on input line 592.
@@ -662,7 +665,7 @@ Package pdftex.def Info: diagrams/DataDictionary1.png  used on input line 592.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/DataDictionary2.png, id=513, 416.757pt x 152.36925pt>
+<diagrams/DataDictionary2.png, id=527, 416.757pt x 152.36925pt>
 File: diagrams/DataDictionary2.png Graphic file (type png)
 <use diagrams/DataDictionary2.png>
 Package pdftex.def Info: diagrams/DataDictionary2.png  used on input line 599.
@@ -670,7 +673,7 @@ Package pdftex.def Info: diagrams/DataDictionary2.png  used on input line 599.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/DataDictionary3.png, id=514, 336.0555pt x 133.09724pt>
+<diagrams/DataDictionary3.png, id=528, 336.0555pt x 133.09724pt>
 File: diagrams/DataDictionary3.png Graphic file (type png)
 <use diagrams/DataDictionary3.png>
 Package pdftex.def Info: diagrams/DataDictionary3.png  used on input line 606.
@@ -678,7 +681,7 @@ Package pdftex.def Info: diagrams/DataDictionary3.png  used on input line 606.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/DataDictionary4.png, id=515, 334.24875pt x 227.6505pt>
+<diagrams/DataDictionary4.png, id=529, 334.24875pt x 227.6505pt>
 File: diagrams/DataDictionary4.png Graphic file (type png)
 <use diagrams/DataDictionary4.png>
 Package pdftex.def Info: diagrams/DataDictionary4.png  used on input line 613.
@@ -686,7 +689,7 @@ Package pdftex.def Info: diagrams/DataDictionary4.png  used on input line 613.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/DataDictionary5.png, id=516, 420.3705pt x 329.43076pt>
+<diagrams/DataDictionary5.png, id=530, 420.3705pt x 329.43076pt>
 File: diagrams/DataDictionary5.png Graphic file (type png)
 <use diagrams/DataDictionary5.png>
 Package pdftex.def Info: diagrams/DataDictionary5.png  used on input line 620.
@@ -694,7 +697,7 @@ Package pdftex.def Info: diagrams/DataDictionary5.png  used on input line 620.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/GameplayDiagram.png, id=517, 614.295pt x 452.892pt>
+<diagrams/GameplayDiagram.png, id=531, 614.295pt x 452.892pt>
 File: diagrams/GameplayDiagram.png Graphic file (type png)
 <use diagrams/GameplayDiagram.png>
 Package pdftex.def Info: diagrams/GameplayDiagram.png  used on input line 642.
@@ -704,7 +707,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [13 <./diagrams/Component.png>] [14 <./diagrams/Deployment.png>] [15 <./diagram
 s/TraceabilityTable.png>]
-<diagrams/RegisterScreen.png, id=534, 654.0435pt x 352.9185pt>
+<diagrams/RegisterScreen.png, id=548, 654.0435pt x 352.9185pt>
 File: diagrams/RegisterScreen.png Graphic file (type png)
 <use diagrams/RegisterScreen.png>
 Package pdftex.def Info: diagrams/RegisterScreen.png  used on input line 685.
@@ -713,7 +716,7 @@ Package pdftex.def Info: diagrams/RegisterScreen.png  used on input line 685.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/LoginScreen.png, id=535, 653.44125pt x 346.896pt>
+<diagrams/LoginScreen.png, id=549, 653.44125pt x 346.896pt>
 File: diagrams/LoginScreen.png Graphic file (type png)
 <use diagrams/LoginScreen.png>
 Package pdftex.def Info: diagrams/LoginScreen.png  used on input line 693.
@@ -721,7 +724,7 @@ Package pdftex.def Info: diagrams/LoginScreen.png  used on input line 693.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/Menus.jpg, id=536, 2073.7475pt x 3574.35374pt>
+<diagrams/Menus.jpg, id=550, 2073.7475pt x 3574.35374pt>
 File: diagrams/Menus.jpg Graphic file (type jpg)
 <use diagrams/Menus.jpg>
 Package pdftex.def Info: diagrams/Menus.jpg  used on input line 701.
@@ -732,7 +735,7 @@ LaTeX Warning: Float too large for page by 235.11868pt on input line 704.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/Wireframes.png, id=537, 1109.94675pt x 445.06274pt>
+<diagrams/Wireframes.png, id=551, 1109.94675pt x 445.06274pt>
 File: diagrams/Wireframes.png Graphic file (type png)
 <use diagrams/Wireframes.png>
 Package pdftex.def Info: diagrams/Wireframes.png  used on input line 709.
@@ -743,7 +746,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [16 <./diagrams/DataDictionary1.png>] [17 <./diagrams/DataDictionary2.png> <./d
 iagrams/DataDictionary3.png>] [18 <./diagrams/DataDictionary4.png>] [19 <./diag
 rams/DataDictionary5.png>] [20 <./diagrams/GameplayDiagram.png>]
-<diagrams/SecurityThreatModel.png, id=564, 633.567pt x 396.2805pt>
+<diagrams/SecurityThreatModel.png, id=578, 633.567pt x 396.2805pt>
 File: diagrams/SecurityThreatModel.png Graphic file (type png)
 <use diagrams/SecurityThreatModel.png>
 Package pdftex.def Info: diagrams/SecurityThreatModel.png  used on input line 7
@@ -754,7 +757,7 @@ Package pdftex.def Info: diagrams/SecurityThreatModel.png  used on input line 7
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [22]
-<diagrams/CPUTest.png, id=576, 398.6895pt x 235.47975pt>
+<diagrams/CPUTest.png, id=590, 398.6895pt x 235.47975pt>
 File: diagrams/CPUTest.png Graphic file (type png)
 <use diagrams/CPUTest.png>
 Package pdftex.def Info: diagrams/CPUTest.png  used on input line 823.
@@ -763,7 +766,7 @@ Package pdftex.def Info: diagrams/CPUTest.png  used on input line 823.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/FileIOTest.png, id=577, 394.47375pt x 233.673pt>
+<diagrams/FileIOTest.png, id=591, 394.47375pt x 233.673pt>
 File: diagrams/FileIOTest.png Graphic file (type png)
 <use diagrams/FileIOTest.png>
 Package pdftex.def Info: diagrams/FileIOTest.png  used on input line 831.
@@ -776,75 +779,146 @@ Underfull \hbox (badness 10000) in paragraph at lines 841--842
 
  []
 
-[23] [24] [25]
-<diagrams/Integration_Visual.png, id=591, 492.33937pt x 255.20343pt>
+[23]
+<diagrams/ChangeInputs.png, id=597, 99.37125pt x 113.223pt>
+File: diagrams/ChangeInputs.png Graphic file (type png)
+<use diagrams/ChangeInputs.png>
+Package pdftex.def Info: diagrams/ChangeInputs.png  used on input line 968.
+(pdftex.def)             Requested size: 542.02501pt x 617.94283pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<diagrams/HealthBarManager.png, id=598, 94.55325pt x 92.14426pt>
+File: diagrams/HealthBarManager.png Graphic file (type png)
+<use diagrams/HealthBarManager.png>
+Package pdftex.def Info: diagrams/HealthBarManager.png  used on input line 975.
+
+(pdftex.def)             Requested size: 542.02501pt x 528.51064pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<diagrams/ScoreManager.png, id=599, 104.18925pt x 189.1065pt>
+File: diagrams/ScoreManager.png Graphic file (type png)
+<use diagrams/ScoreManager.png>
+Package pdftex.def Info: diagrams/ScoreManager.png  used on input line 982.
+(pdftex.def)             Requested size: 542.02501pt x 983.80382pt.
+
+LaTeX Warning: Float too large for page by 284.70381pt on input line 985.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<diagrams/PlayFabManager.png, id=600, 78.89474pt x 285.4665pt>
+File: diagrams/PlayFabManager.png Graphic file (type png)
+<use diagrams/PlayFabManager.png>
+Package pdftex.def Info: diagrams/PlayFabManager.png  used on input line 989.
+(pdftex.def)             Requested size: 542.02501pt x 1961.70613pt.
+
+LaTeX Warning: Float too large for page by 1262.60612pt on input line 992.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<diagrams/SoldierWalk.png, id=601, 172.2435pt x 214.401pt>
+File: diagrams/SoldierWalk.png Graphic file (type png)
+<use diagrams/SoldierWalk.png>
+Package pdftex.def Info: diagrams/SoldierWalk.png  used on input line 996.
+(pdftex.def)             Requested size: 542.02501pt x 674.90541pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<diagrams/PlayerMovement.png, id=602, 280.6485pt x 284.86424pt>
+File: diagrams/PlayerMovement.png Graphic file (type png)
+<use diagrams/PlayerMovement.png>
+Package pdftex.def Info: diagrams/PlayerMovement.png  used on input line 1003.
+(pdftex.def)             Requested size: 542.02501pt x 550.21051pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<diagrams/UnitTestingTable.png, id=603, 448.074pt x 465.53925pt>
+File: diagrams/UnitTestingTable.png Graphic file (type png)
+<use diagrams/UnitTestingTable.png>
+Package pdftex.def Info: diagrams/UnitTestingTable.png  used on input line 1016
+.
+(pdftex.def)             Requested size: 542.02501pt x 563.16216pt.
+[24]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[25]
+<diagrams/Integration_Visual.png, id=612, 492.33937pt x 255.20343pt>
 File: diagrams/Integration_Visual.png Graphic file (type png)
 <use diagrams/Integration_Visual.png>
 Package pdftex.def Info: diagrams/Integration_Visual.png  used on input line 10
-35.
+76.
 (pdftex.def)             Requested size: 542.02501pt x 280.96996pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [26]
-<diagrams/System_Testing_Results.png, id=596, 604.05675pt x 340.27126pt>
+<diagrams/System_Testing_Results.png, id=617, 604.05675pt x 340.27126pt>
 File: diagrams/System_Testing_Results.png Graphic file (type png)
 <use diagrams/System_Testing_Results.png>
 Package pdftex.def Info: diagrams/System_Testing_Results.png  used on input lin
-e 1098.
+e 1139.
 (pdftex.def)             Requested size: 542.02501pt x 305.35344pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [27]
-<diagrams/AcceptanceOne.png, id=602, 254.1495pt x 319.79475pt>
+<diagrams/AcceptanceOne.png, id=623, 254.1495pt x 319.79475pt>
 File: diagrams/AcceptanceOne.png Graphic file (type png)
 <use diagrams/AcceptanceOne.png>
-Package pdftex.def Info: diagrams/AcceptanceOne.png  used on input line 1164.
+Package pdftex.def Info: diagrams/AcceptanceOne.png  used on input line 1205.
 (pdftex.def)             Requested size: 542.02501pt x 682.08983pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diagrams/AcceptanceTwo.png, id=603, 253.54726pt x 145.14224pt>
+<diagrams/AcceptanceTwo.png, id=624, 253.54726pt x 145.14224pt>
 File: diagrams/AcceptanceTwo.png Graphic file (type png)
 <use diagrams/AcceptanceTwo.png>
-Package pdftex.def Info: diagrams/AcceptanceTwo.png  used on input line 1171.
+Package pdftex.def Info: diagrams/AcceptanceTwo.png  used on input line 1212.
 (pdftex.def)             Requested size: 542.02501pt x 310.33554pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [28]
-Overfull \hbox (124.82277pt too wide) in paragraph at lines 1267--1267
+Overfull \hbox (124.82277pt too wide) in paragraph at lines 1308--1308
 []            \OT1/cmtt/m/n/10.95 Selectable previous = system1.currentSelected
 GameObject.GetComponent<Selectable>().FindSelectableOnUp();[] 
  []
 
 
-Overfull \hbox (113.3254pt too wide) in paragraph at lines 1267--1267
+Overfull \hbox (113.3254pt too wide) in paragraph at lines 1308--1308
 []            \OT1/cmtt/m/n/10.95 Selectable next = system1.currentSelectedGame
 Object.GetComponent<Selectable>().FindSelectableOnDown();[] 
  []
 
 [29] [30]
-Overfull \hbox (15.5977pt too wide) in paragraph at lines 1481--1481
+Overfull \hbox (15.5977pt too wide) in paragraph at lines 1522--1522
 []    \OT1/cmtt/m/n/10.95 // If the register and login button is pressed, it ch
 ecks to ensure that the inputs are valid[] 
  []
 
 
-Overfull \hbox (9.84901pt too wide) in paragraph at lines 1481--1481
+Overfull \hbox (9.84901pt too wide) in paragraph at lines 1522--1522
 []    \OT1/cmtt/m/n/10.95 // If the login button is pressed then it checks user
  validation within the PlayFab database[] 
  []
 
 [31] [32] [33] [34] [35] [36] [37] [38 <./diagrams/Menus.jpg>] [39 <./diagrams/
 Wireframes.png> <./diagrams/SecurityThreatModel.png>] [40 <./diagrams/CPUTest.p
-ng> <./diagrams/FileIOTest.png>] [41 <./diagrams/Integration_Visual.png> <./dia
-grams/System_Testing_Results.png>] [42 <./diagrams/AcceptanceOne.png>] [43 <./d
-iagrams/AcceptanceTwo.png>] (./Rampage - Technical Documentation.aux)
+ng> <./diagrams/FileIOTest.png>] [41 <./diagrams/ChangeInputs.png>] [42 <./diag
+rams/HealthBarManager.png>] [43 <./diagrams/ScoreManager.png>] [44 <./diagrams/
+PlayFabManager.png>] [45 <./diagrams/SoldierWalk.png>] [46 <./diagrams/PlayerMo
+vement.png>] [47 <./diagrams/UnitTestingTable.png>] [48 <./diagrams/Integration
+_Visual.png> <./diagrams/System_Testing_Results.png>] [49 <./diagrams/Acceptanc
+eOne.png>] [50 <./diagrams/AcceptanceTwo.png>]
+(./Rampage - Technical Documentation.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -858,10 +932,10 @@ Package rerunfilecheck Info: File `"Rampage - Technical Documentation".out' has
 (rerunfilecheck)             Checksum: FC064F6F920CAEF1F44B0217AE342ED3;11857.
  ) 
 Here is how much of TeX's memory you used:
- 11634 strings out of 474934
- 191525 string characters out of 5763815
- 1937801 words of memory out of 5000000
- 32895 multiletter control sequences out of 15000+600000
+ 11703 strings out of 474934
+ 193413 string characters out of 5763815
+ 1938801 words of memory out of 5000000
+ 32950 multiletter control sequences out of 15000+600000
  563100 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,2431b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -870,11 +944,11 @@ live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Rampage - Technical Documentation.pdf" (47 pages, 3566297 by
+Output written on "Rampage - Technical Documentation.pdf" (54 pages, 3722996 by
 tes).
 PDF statistics:
- 739 PDF objects out of 1000 (max. 8388607)
- 616 compressed objects within 7 object streams
- 150 named destinations out of 1000 (max. 500000)
- 711 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 799 PDF objects out of 1000 (max. 8388607)
+ 655 compressed objects within 7 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 746 words of extra memory for PDF output out of 10000 (max. 10000000)
 
