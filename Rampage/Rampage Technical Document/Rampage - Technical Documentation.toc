@@ -56,15 +56,15 @@
 \contentsline {subsection}{\numberline {4.4}System Testing}{26}{subsection.4.4}%
 \contentsline {subsubsection}{\numberline {4.4.1}System Tests and Results}{27}{subsubsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.5}Acceptance Testing}{27}{subsection.4.5}%
-\contentsline {subsubsection}{\numberline {4.5.1}Acceptance Tests and Results}{27}{subsubsection.4.5.1}%
-\contentsline {section}{\numberline {5}Conclusion}{27}{section.5}%
-\contentsline {section}{\numberline {6}Appendix}{27}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Software Product Build Instructions}{27}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Software Product User Guide}{27}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Source Code with Comments}{27}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}ChangeInputs.cs}{27}{subsubsection.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}PlayFabManager.cs}{28}{subsubsection.6.3.2}%
-\contentsline {subsubsection}{\numberline {6.3.3}OpenGame.cs}{32}{subsubsection.6.3.3}%
-\contentsline {subsubsection}{\numberline {6.3.4}PlayerMovement.cs}{33}{subsubsection.6.3.4}%
-\contentsline {subsubsection}{\numberline {6.3.5}HealthBarManager.cs}{35}{subsubsection.6.3.5}%
-\contentsline {subsubsection}{\numberline {6.3.6}ScoreManager.cs}{35}{subsubsection.6.3.6}%
+\contentsline {subsubsection}{\numberline {4.5.1}Acceptance Tests and Results}{28}{subsubsection.4.5.1}%
+\contentsline {section}{\numberline {5}Conclusion}{28}{section.5}%
+\contentsline {section}{\numberline {6}Appendix}{28}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Software Product Build Instructions}{28}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Software Product User Guide}{29}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Source Code with Comments}{29}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}ChangeInputs.cs}{29}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}PlayFabManager.cs}{30}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}OpenGame.cs}{34}{subsubsection.6.3.3}%
+\contentsline {subsubsection}{\numberline {6.3.4}PlayerMovement.cs}{34}{subsubsection.6.3.4}%
+\contentsline {subsubsection}{\numberline {6.3.5}HealthBarManager.cs}{36}{subsubsection.6.3.5}%
+\contentsline {subsubsection}{\numberline {6.3.6}ScoreManager.cs}{37}{subsubsection.6.3.6}%
