@@ -17,7 +17,7 @@
 \contentsline {subsubsection}{\numberline {2.3.3}Use Case Scenarios Developed from Use Case Diagrams (Primary, Secondary)}{6}{subsubsection.2.3.3}%
 \contentsline {subsubsection}{\numberline {2.3.4}Sequence Diagrams}{8}{subsubsection.2.3.4}%
 \contentsline {subsubsection}{\numberline {2.3.5}State Diagrams}{8}{subsubsection.2.3.5}%
-\contentsline {subsubsection}{\numberline {2.3.6}Component Diagrams}{9}{subsubsection.2.3.6}%
+\contentsline {subsubsection}{\numberline {2.3.6}Component Diagrams}{8}{subsubsection.2.3.6}%
 \contentsline {subsubsection}{\numberline {2.3.7}Deployment Diagrams}{9}{subsubsection.2.3.7}%
 \contentsline {subsection}{\numberline {2.4}Traceability Table}{9}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Version Control}{11}{subsection.2.5}%
@@ -30,9 +30,9 @@
 \contentsline {subsubsection}{\numberline {2.7.5}Gameplay Items}{15}{subsubsection.2.7.5}%
 \contentsline {subsubsection}{\numberline {2.7.6}Gameplay Challenges}{15}{subsubsection.2.7.6}%
 \contentsline {subsubsection}{\numberline {2.7.7}Gameplay Menu Screens}{16}{subsubsection.2.7.7}%
-\contentsline {subsubsection}{\numberline {2.7.8}Gameplay Heads-Up Display}{17}{subsubsection.2.7.8}%
+\contentsline {subsubsection}{\numberline {2.7.8}Gameplay Heads-Up Display}{16}{subsubsection.2.7.8}%
 \contentsline {subsubsection}{\numberline {2.7.9}Gameplay Art Style}{17}{subsubsection.2.7.9}%
-\contentsline {subsubsection}{\numberline {2.7.10}Gameplay Audio}{18}{subsubsection.2.7.10}%
+\contentsline {subsubsection}{\numberline {2.7.10}Gameplay Audio}{17}{subsubsection.2.7.10}%
 \contentsline {section}{\numberline {3}Non-Functional Product Details}{18}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Product Security}{18}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Approach to Security in all Process Steps}{18}{subsubsection.3.1.1}%
@@ -41,14 +41,14 @@
 \contentsline {subsection}{\numberline {3.2}Product Performance}{22}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Product Performance Requirements}{22}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Measurable Performance Objectives}{22}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Application Workload}{23}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3}Application Workload}{22}{subsubsection.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.2.4}Hardware and Software Bottlenecks}{23}{subsubsection.3.2.4}%
 \contentsline {subsubsection}{\numberline {3.2.5}Synthetic Performance Benchmarks}{23}{subsubsection.3.2.5}%
 \contentsline {subsubsection}{\numberline {3.2.6}Performance Tests}{23}{subsubsection.3.2.6}%
 \contentsline {section}{\numberline {4}Software Testing}{24}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Software Testing Plan Template}{24}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Unit Testing}{25}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Source Code Coverage Tests}{25}{subsubsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2}Unit Testing}{24}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Source Code Coverage Tests}{24}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Unit Tests and Results}{25}{subsubsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.3}Integration Testing}{25}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}Integration Tests and Results}{25}{subsubsection.4.3.1}%
@@ -60,7 +60,7 @@
 \contentsline {section}{\numberline {5}Conclusion}{28}{section.5}%
 \contentsline {section}{\numberline {6}Appendix}{28}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Software Product Build Instructions}{28}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Software Product User Guide}{29}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Software Product User Guide}{28}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Source Code with Comments}{29}{subsection.6.3}%
 \contentsline {subsubsection}{\numberline {6.3.1}ChangeInputs.cs}{29}{subsubsection.6.3.1}%
 \contentsline {subsubsection}{\numberline {6.3.2}PlayFabManager.cs}{30}{subsubsection.6.3.2}%
