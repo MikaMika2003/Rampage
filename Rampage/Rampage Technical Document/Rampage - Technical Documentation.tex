@@ -1121,24 +1121,31 @@ The test item is the software as a whole. Each scene is tested as a fully integr
 \textbf{Features to test/not to test:} %50 words minimum. In scope features. This could be newly added or updated features. Out of scope features not tested. [Provide reasoning for exclusion, like, non-impacted, low priority, etc.]
 All features of the gameplay will be tested in the acceptance testing. Out of scope features are not tested but all features that are in the scope are tested. Character movement, scene changes, leaderboard functionality, login functionality, register functionality, and the win/lose conditions. That includes ensuring that the NPCs disappear when the player comes in contact with them and a life goes down. In turn, when the player touches the collision box on the buildings, the buildings disappear and the player gains a point.
 
+
 \textbf{Approach:} %50 words minimum. Strategy to test the software. Includes types of tests and how to test. Functional, performance, security testing using combined [manual + automation], manual only, automation only approach.
 The approach to the acceptance testing is to bring up the frst scene for the client and allow them to play through the game a few times to test different features. First, the client will test registering and logging into an account on the game. They will then test accessing the leaderboard and getting back to the main menu. Once back to the menu, they will play through the game and fulfill the winning conditions. After the win scene occurs, they will logout and try to register using the account they already created to see that it will not let them do that. They will then login with the account they made instead of registering it, and play the game again. This time they will fulfill the losing game conditions and see that the losing scene occurs. Throughout this, the client sees that the audio works, as well as each function we provided in the test case pass/fail table.
 
+
 \textbf{Test deliverables:} %50 words minimum. All the deliverables from the testing e.g. approaches, test cases, reports etc.
 The deliverable for this test is a table that contains three columns. The first column is the test case to be performed. The second column is to mark a check if the test case passed, aptly named "Pass". The last column, "Fail", is where the client will mark an X if the test was failed. The entire chart is completed at the final client/team meeting.
+
 
 \textbf{Item pass/fail criteria:} %50 words minimum. Entry and Exit criteria for all items. 
 Each test case involving moving from scene to scene requires that the client is able to move from one scene to another using the appropriate buttons/key presses wihtout issue in order to pass. If the client cannot do that then the test case failed. The testing of the player movement requires that the client is able to use AD or the left/right arrows keys to move George from side to side, and that the space bar makes George jump. If those actions occur as listed, the test is passed; otherwise it is a fail. For audio tests, if the audio plays without stopping, glitching, or beginning late then the test is passed. 
 
 
+
 \textbf{Environmental needs:} %50 words minimum. Infrastructure required for SUT and executing test cases.
 For the software to run smoothly, the user would have to have access to Unity and a windows pc. We were unable to test whether it was playable on a Mac so we are unsure about that environment. The user would need to ensure that their system fulfilled all of the software requirements needed for Unity itself. Beyond that, there are no other infrastructure requirements.
+
 
 \textbf{Responsibilities:} %50 words minimum. Roles and responsibilities for various testing / supported activities.
 It is the responsiblity of the team to bring a laptop containing the game/game environment to the client meeting for the client to test with. It also the responsibility of the team to bring a chart containing test cases and space to mark them as pass/fail for the client to use as they test. It is the responsibliity of the client to check the test cases against what is occuring as they move through the game and mark them as pass or fail; it is not the responsiblity of the team to check behind the client. 
 
+
 \textbf{Staffing and training needs:} %50 words minimum. Training needs to bridge the gap of available and expected skill.
 There is no staffing need for the acceptance testing. The training needs are those of understanding basic gameplay and gameplay mechanics. The client should have an understanding of game win and lose conditions, where to watch for those conditions to change, and how to navigate account creation, logins, and a leaderboard. 
+
 
 \textbf{Schedule:} %50 words minimum.  Test schedule should also be noted in the Gantt Chart. Test estimation (Efforts) and high-level schedule. Schedule should be for key deliverables or important milestones. Ideally, all test deliverables included in the test plan should be scheduled.
 The acceptance test will occur at the final client/team meeting of the semester. The meeting will take place on the twenty-eighth of November at three-thirty pm. The meeting is not expected to last any more than thirty minutes; at maximum the meeting could last to forty minutes until completetion of the acceptance testing.
